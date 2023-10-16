@@ -1,6 +1,8 @@
 const repeatString = function(string, repeat) {
 let i = 0;
 let str = "";
+
+if (repeat <0) "ERROR";
     while (i < repeat){
         str += string;
         i++;
