@@ -2,7 +2,7 @@ const repeatString = function(string, repeat) {
 let i = 0;
 let str = "";
 
-if (repeat <0) "ERROR";
+if (repeat <0) return "ERROR";
     while (i < repeat){
         str += string;
         i++;
