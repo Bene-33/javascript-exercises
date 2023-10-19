@@ -7,8 +7,8 @@ const sumAll = function(x,y) {
 
     if (array[0] <= 0 || 
         array[1] <= 0 || 
-        typeof(array[0]) === "string" || 
-        typeof(array[1]) === "string"){
+        isNaN(array[0]) === true || 
+        isNaN(array[1]) === true){
         return "ERROR"
     }
        else{
