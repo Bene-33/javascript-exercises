@@ -5,12 +5,18 @@ const sumAll = function(x,y) {
     let fullArray = [];
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
-    for(let i = array[0]; i <= array[1]; i++){
-        fullArray.push(i)
-
+    if (array[0] <= 0|| array[1] <= 0){
+        return "ERROR"
     }
+       else{
 
-    return sum = fullArray.reduce(reducer);
+        for(let i = array[0]; i <= array[1]; i++){
+            fullArray.push(i)
+
+        }
+       }
+
+return sum = fullArray.reduce(reducer);
 };
 
 // Do not edit below this line
