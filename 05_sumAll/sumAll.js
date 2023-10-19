@@ -7,8 +7,8 @@ const sumAll = function(x,y) {
 
     if (array[0] <= 0 || 
         array[1] <= 0 || 
-        isNaN(array[0]) === true || 
-        isNaN(array[1]) === true){
+        Number.isInteger(array[0]) === false ||
+        Number.isInteger(array[1]) === false){
         return "ERROR"
     }
        else{
