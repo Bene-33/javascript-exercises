@@ -1,6 +1,7 @@
 const sumAll = function(x,y) {
     let sum = 0;
-    let array =[x,y];
+    let initialArray =[x,y];
+    let array = initialArray.sort(function(a,b){return a-b});
     let fullArray = [];
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
