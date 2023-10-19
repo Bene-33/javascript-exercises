@@ -5,7 +5,10 @@ const sumAll = function(x,y) {
     let fullArray = [];
     const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
-    if (array[0] <= 0|| array[1] <= 0){
+    if (array[0] <= 0 || 
+        array[1] <= 0 || 
+        typeof(array[0]) === "string" || 
+        typeof(array[1]) === "string"){
         return "ERROR"
     }
        else{
