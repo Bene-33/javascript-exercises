@@ -1,5 +1,6 @@
 const palindromes = function (word) {
-    let string = word.toLowerCase();
+    let replace = "!";
+    let string = word.toLowerCase().replace(replace,'');
     let newString = string.split('').reverse().join('');
     if(string === newString){
         return true;
