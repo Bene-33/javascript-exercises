@@ -16,7 +16,7 @@ const sum = function(array) {
 
 const multiply = function(array) {
   let multiply = array.reduce((a, b) => {
-    return a * b});
+    return a * b},1);
     return multiply;
 };
 
