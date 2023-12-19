@@ -20,7 +20,8 @@ const multiply = function(array) {
     return multiply;
 };
 
-const power = function() {
+const power = function(base, exponent) {
+  return base**exponent;
 	
 };
 
