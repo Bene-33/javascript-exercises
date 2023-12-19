@@ -8,8 +8,10 @@ const subtract = function(x,y) {
 	
 };
 
-const sum = function() {
-	
+const sum = function(array) {
+  let sum = array.reduce((a, b) => {
+    return a + b}, 0);
+    return sum;
 };
 
 const multiply = function() {
