@@ -10,9 +10,9 @@ const findTheOldest = function(array) {
         else{ 
             return firstPerson;
         }
-    },0);
+    });
 };
-
+ 
 let getAge = function(birth, death){
     if (!death){
         return new Date().getFullYear() - birth;
